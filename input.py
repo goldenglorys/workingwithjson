@@ -46,7 +46,7 @@ def convert_json_to_csv():
                         result.write(str(obj[csv_head]) + ',')
                     # result.write('\n' + str(obj['user_id']) + ','+ obj['first_name'] + ',' + obj['last_name'])
                 print('Program completed successfully! with file name of' + outputfilename)
-
+        print("====================================================================================")
     except FileNotFoundError:
         print("File not found program exit!")
 
